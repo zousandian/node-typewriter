@@ -19,7 +19,6 @@ rs._read = () => {
 
 rs.pipe(process.stdout)
 
-
 process.on('exit', () => {
   console.log('\nBye!')
 })
